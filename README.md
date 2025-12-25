@@ -46,7 +46,7 @@ In order to achieve fast semantic search and retrieval, the **ChromaDB** vector 
 
 #### Augmentation Component
 
-Augmenting the query inputted by the user was realized through multiple means. First, the relevant content retrieved by ChromaDB was merged with query. Then, the following **prompt engineering** strategies were employed: instructions, specially formatted tokens that facilitated the recognition of the LLM, and few shot prompting.
+Augmenting the query inputted by the user was realized through multiple means. First, the relevant content retrieved by ChromaDB was merged with the query. Then, the following **prompt engineering** strategies were employed: instructions, specially formatted tokens that facilitated the recognition of the LLM, and few shot prompting.
 
 #### Generative Component
 
